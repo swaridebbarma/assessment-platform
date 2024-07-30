@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #EBE9E6;
+  border: 2px solid #b7cbd1;
+  width: 1440px;
+  height: auto;
+  margin: auto;
+}
+
+/* header css */
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  /* border: 2px solid blue; */
+  background: #FCFAFA;
+}
+
+.col1 {
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+  margin-left: 70px;
+}
+
+.col1 img {
+  width: 70px;
+  height: auto;
+}
+
+.col2 {
+  padding: 10px;
+  /* border: 1px solid black; */
+  text-transform: uppercase;
+  font-size: 28.736px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  color: #8F887C;
+  margin-right: 70%;
+
+}
+
+.col3 {
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+  /* margin-right: 20px; */
+  color: #4C4B49;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.col4 {
+  padding: 10px;
+  /* border: 1px solid black; */
+  color: #4C4B49;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+
+}
+
+
+/* second page */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -300px;
+}
+
+.submitted-btn {
+  display: inline-flex;
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid var(--Accent, #F4D150);
+  background: var(--Accent-Light, #FEEEB4);
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+/* footer css */
+
+
+
+.footer-row {
+  display: flex;
+  margin: auto;
+  height: 171px;
+  justify-content: center;
+  align-items: center;
+  background: #4C4B49;
+  margin-top: 143px;
+
+}
+
+.footer {
+  margin: 46px 0px 68px 0px;
+
+}
+
+.p1 {
+  width: 57px;
+  height: 22px;
+  margin-left: 115px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 18px;
+  color: white;
+
+}
+
+
+.p2 {
+  font-family: "Inria Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: 289px;
+  height: 17px;
+  color: white;
+
+
+
+}
+
+;

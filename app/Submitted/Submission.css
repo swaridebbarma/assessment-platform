@@ -1,0 +1,88 @@
+.submission {
+    padding: 0px;
+}
+
+.submission-box1 {
+    width: 705px;
+    height: 516px;
+    border: 1px solid rgb(231, 234, 238);
+    background-color: white;
+    margin: auto;
+    margin-top: 125px;
+
+}
+
+.right {
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    background-color: #88BE37;
+    border-radius:15px;
+    padding: 6px;
+    margin-top: 100px;
+}
+
+
+    
+
+.submission-box2 {
+    width: 305px;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* margin-top: 125px; */
+
+}
+
+.submission-box2,
+h1 {
+    color: var(--Dark-a, #1F1E1C);
+
+    /* H Section */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 28.8px */
+    letter-spacing: -0.48px;
+}
+
+.submission-box2,
+h2 {
+    color: #000;
+    text-align: center;
+
+    /* tx bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 22.4px */
+}
+
+.submission-box2,
+p {
+    color: #000;
+    text-align: center;
+
+    /* tx */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+
+.Score-btn {
+    margin-top: 50px;
+    padding: 16px 35px;
+    margin-left: 37%;
+    border-radius: 10px;
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
