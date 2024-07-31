@@ -3,17 +3,16 @@ import Portal from "./Portal.js";
 
 import Footer from "./Footer.js";
 import "./globals.css";
-// import styles from "./page.module.css";
-
 
 export default function Home() {
   return (
     <>
-      <Header />
       <div className="container">
+        <Header />
         <Portal />
+        <Footer />
       </div>
-      <Footer />
+
     </>
   );
 };

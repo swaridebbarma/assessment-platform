@@ -1,28 +1,27 @@
 .submission-box1 {
     width: 705px;
-    height: 516px;
+    height: auto;
     border: 1px solid rgb(231, 234, 238);
     background-color: white;
     margin: auto;
-    margin-top: 125px;
+    margin-top: 103px;
 
 }
 
 .tick {
     margin: auto;
     width: 28px;
-    height: 28px;
+    height: 28px; 
     background-color: #88BE37;
     border-radius:15px;
-    padding: 6px;
-    margin-top: 100px;
+    padding:4px 8px;
+    margin-top: 93px;
 }
 
 
-    
 
 .submission-box2 {
-    width: 305px;
+    width: 320px;
     height: auto;
     /* border: 1px solid black; */
     margin: auto;
@@ -35,6 +34,7 @@ h1 {
     font-size: 24px;
     font-weight: 600;
     line-height: 120%;
+    margin-top: 22px;
 }
 
 .submission-box2,
@@ -59,11 +59,43 @@ p {
 
 
 .Score-btn {
-    margin-top: 50px;
+    width: 222px;
+    height: 54px;
+    margin-top: 89px;
+    margin-bottom: 108px;
     padding: 16px 35px;
-    margin-left: 37%;
+    margin-left: 230px;
     border-radius: 10px;
     border: 2px solid #F4D150;
     background: #FEEEB4;
     box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .submission-box1 {
+        width: 320px;
+        height: auto;
+    }
+
+    .submission-box2,
+    h2 {
+        margin-top: 36px;
+    }
+    
+    .Score-btn {
+        margin-left: 50px;
+        margin-bottom: 60pxpx;
+        margin-top: 50px;
+    }
+
+    .submission-box2 {
+        width: 280px;
+    }
+
+    .tick {
+        margin-top: 60px;
+        margin-bottom: 57px;
+    }
 }

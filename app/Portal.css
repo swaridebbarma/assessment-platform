@@ -7,7 +7,6 @@ h1 {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: -0.48px;
     margin-top: 84px;
 
 }
@@ -58,16 +57,13 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    margin-top: -10px;
 }
 
 hr {
     width: 620px;
     height: 1px;
     background: #4C4B49;
-    /* margin-bottom: 39px; */
     margin-top: 60px;
-
 }
 
 .portal-btn {
