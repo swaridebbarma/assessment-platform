@@ -1,35 +1,59 @@
 * {
   box-sizing: border-box;
 }
-
+.container {
+  background: #EBE9E6;
+  height: auto;
+}
 
 body {
   background: #EBE9E6;
   border: 2px solid #b7cbd1;
-  width: 1440px;
   height: auto;
   margin: auto;
 }
+
+/* @media (min-width: 1024px) {
+  body {
+    background: #EBE9E6;
+    border: 2px solid #b7cbd1;
+    width: 1240px;
+    height: auto;
+    margin: auto;
+  }
+}  */
+
+/* Mobile view */
+@media (max-width: 768px) {
+  body {
+    background: #EBE9E6;
+    border: 2px solid #b7cbd1;
+    width: 360px;
+    height: auto;
+    margin: auto;
+  }
+}
+
 
 /* header css */
 
 .row {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 72px;
   /* border: 2px solid blue; */
   background: #FCFAFA;
 }
 
 .col1 {
-  /* padding: 10px; */
-  /* border: 1px solid black; */
-  margin-left: 70px;
+
+  margin-left: 70%;
 }
 
 .col1 img {
-  width: 70px;
-  height: auto;
+  width: 56px;
+  height: 36px;
 }
 
 .col2 {
@@ -41,13 +65,10 @@ body {
   font-weight: 700;
   color: #8F887C;
   margin-right: 70%;
-
+  width: 48px;
 }
 
 .col3 {
-  /* padding: 10px; */
-  /* border: 1px solid black; */
-  /* margin-right: 20px; */
   color: #4C4B49;
   font-size: 14px;
   font-family: Inter;
@@ -67,30 +88,26 @@ body {
 }
 
 
+
 /* second page */
 
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -300px;
+  margin-left: -30%;
 }
 
 .submitted-btn {
-  display: inline-flex;
+  margin-left: 50px;
   padding: 16px 35px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   border-radius: 4px;
-  border: 2px solid var(--Accent, #F4D150);
-  background: var(--Accent-Light, #FEEEB4);
+  border: 2px solid #F4D150;
+  background: #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
 }
 
 /* footer css */
-
-
 
 .footer-row {
   display: flex;
@@ -116,13 +133,17 @@ body {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 18px;
+  /* margin-bottom: 18px; */
   color: white;
+  /* margin-bottom: 18px; */
+  /* margin-top: 46px; */
+
 
 }
 
 
 .p2 {
+  margin-top: 10px;
   font-family: "Inria Sans";
   font-size: 14px;
   font-weight: 400;
@@ -130,9 +151,7 @@ body {
   width: 289px;
   height: 17px;
   color: white;
-
-
+  /* margin-bottom: 68px; */
+  /* margin-top: 18px; */
 
 }
-
-;

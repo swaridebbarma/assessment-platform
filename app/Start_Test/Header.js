@@ -4,7 +4,7 @@ import Pagination from "@mui/material/Pagination";
 const Header = () => {
 	return (
 		<div className="row">
-			<div className="col1">
+			<div className="testcol1">
 				<img src="/Logo Grp.svg" alt="Logo" />
 			</div>
 			<div className="col2"> QA </div>

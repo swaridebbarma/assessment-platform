@@ -9,9 +9,11 @@ import "./globals.css";
 export default function Home() {
   return (
     <>
-        <Header />
+      <Header />
+      <div className="container">
         <Portal />
-        <Footer />
+      </div>
+      <Footer />
     </>
   );
 };
