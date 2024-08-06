@@ -1,13 +1,12 @@
 
 import Footer from "../Footer";
 import Header from "./Header";
-import Questions from "./Questions";
-
+import  Questionspage from "./Questions_page";
 const Page = () => {
 	return (
 		<>
 			<Header />
-			<Questions/>
+			< Questionspage/>
 			<Footer />
 		</>
 	);

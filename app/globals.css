@@ -2,56 +2,27 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 1665px) {
-  .container {
-    width: 1240px;
-    margin: auto;
-    border: 2px solid #b7cbd1;
-
-  }
-}
-
 body {
   background: #EBE9E6;
-  border: 2px solid #b7cbd1;
+  border: 1px solid #b7cbd1;
+  margin: auto;
+  height: auto;
 
-}
-
-
-/* Mobile view */
-
-@media(max-width:786px) {
-
-  .row {
-    width: auto;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px solid blue; */
-    background: #FCFAFA;
-  }
-
-  .col1 {
-
-    margin-left: 120px;
-  }
 }
 
 
 /* header css */
 /* first page */
 
-.header-row{
+.header-row {
   display: flex;
-  width: auto;
   height: 72px;
   padding: 18px 0px;
   justify-content: center;
   align-items: center;
   /* border: 2px solid blue; */
   background: #FCFAFA;
-  
+
 }
 
 .header-col1 {
@@ -66,8 +37,131 @@ body {
   font-family: "Josefin Sans";
   font-weight: 700;
   color: #8F887C;
-  width: 48px;
-  margin-right:367px;
+  margin-right: 367px;
+
+}
+
+
+
+
+/* header css */
+/* second page */
+.header-secondpage-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 72px;
+  border: 2px solid blue;
+  background: #FCFAFA;
+
+}
+
+.secondpage-row {
+  display: flex;
+  align-content: center;
+  height: 72px;
+  padding: 18px 0px;
+}
+
+.secondpage-col1 {
+  display: flex;
+  width: 112px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-left: 120px;
+}
+
+.secondpage-col2 {
+  padding: 10px;
+  /* border: 1px solid black; */
+  text-transform: uppercase;
+  font-size: 28.736px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  color: #8F887C;
+}
+
+.clock-box {
+  width: 152px;
+  height: 180px;
+  border: 1px solid #1F1E1C;
+  margin-left: 57px;
+  margin-top: 10px;
+
+}
+.filter-box {
+  text-align: center;
+  width: 284px;
+  height: 375px;
+  border-radius: 12px;
+  border: 1px solid #777671;
+  background: #F9F7F2;
+  margin-left: -223px;
+  margin-top: 250px;
+  /* justify-content: space-between; */
+
+}
+
+.filter {
+  display: flex;
+  width: 197px;
+  height: 259.621px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 38px;
+  margin-left: 36px;
+  border-radius: 12px;
+  border: 1px solid #0c17b3;
+
+}
+
+.pagination {
+  margin-left: 235px;
+
+}
+
+.submitted-btn {
+  display: inline-flex;
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 72px;
+  border-radius: 4px;
+  border: 2px solid var(--Accent, #F4D150);
+  background: var(--Accent-Light, #FEEEB4);
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+
+
+
+/* header css */
+/* third page */
+
+.score-header-row {
+  display: flex;
+  height: 72px;
+  padding: 18px 0px;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  background: #FCFAFA;
+
+
+}
+
+
+.col2 {
+  padding: 10px;
+  /* border: 1px solid black; */
+  text-transform: uppercase;
+  font-size: 28.736px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  color: #8F887C;
 
 }
 
@@ -75,52 +169,20 @@ body {
   color: #4C4B49;
   font-size: 14px;
   font-family: Inter;
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: 400;
+  margin-left: 650px;
 }
 
 .col4 {
   padding: 10px;
   /* border: 1px solid black; */
   color: #4C4B49;
-  text-decoration: none;
   font-size: 14px;
   font-family: Inter;
-  font-weight: 400;
+  font-weight: 600;
 
 }
 
-
-
-/* second page */
-.secondpage-row {
-  display: flex;
-  height: 72px;
-  padding: 18px 0px;
-  align-items: center;
-  /* border: 2px solid blue; */
-  background: #FCFAFA;
-}
-.secondpage-col1 {
-  margin-left: 120px;
-}
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 220px;
-
-}
-
-.submitted-btn {
-  margin-left: 50px;
-  padding: 16px 35px;
-  border-radius: 4px;
-  border: 2px solid #F4D150;
-  background: #FEEEB4;
-  box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
 
 /* footer css */
 
@@ -132,6 +194,7 @@ body {
   align-items: center;
   background: #4C4B49;
   margin-top: 143px;
+  border: 2px solid #0f12e4;
 
 }
 
@@ -145,8 +208,6 @@ body {
   font-weight: 700;
   text-align: center;
   color: white;
-
-
 
 }
 
@@ -163,14 +224,10 @@ body {
 
 }
 
-
-@media(max-width:786px) {
+/* Mobile view */
+@media (max-width: 768px) {
   .footer-row {
-    display: flex;
-    height: 171px;
-    padding: 46px 35px 68px 36px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
+    padding: 15px 0;
+    flex-direction: column;
   }
 }

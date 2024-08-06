@@ -7,6 +7,7 @@ const Header = () => {
 				<Image src="/Logo Grp.svg" alt="Logo" width={56} height={36} />
 			</div>
 			<div className="col2"> QA </div>
+			
 		</div>
 	);
 };
