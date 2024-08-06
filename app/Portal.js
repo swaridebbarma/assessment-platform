@@ -23,9 +23,11 @@ const Portal = () => {
                         <h4>Good Luck!</h4>
                     </div>
                     <hr />
+                    <div className="portal-button">
                     <Link href="Start_Test">
                         <button className="portal-btn">Let&apos;s Start</button>
                     </Link>
+                    </div>
                 </div>
             </div>
         </>
