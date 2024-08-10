@@ -1,5 +1,6 @@
 import Questions from "./Questions.js";
-import "./Questions.css";
+// import "./Questions.css";
+
 const Questionspage = () => {
 
     return (

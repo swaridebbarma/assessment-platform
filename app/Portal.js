@@ -4,7 +4,7 @@ import Link from "next/link";
 const Portal = () => {
     return (
         <>
-            <div className="portal">
+            <div className="portal-main">
                 <h1>MCQ Test Portal</h1>
                 <div className="portal-box">
                     <div className="portal-box1">
@@ -24,7 +24,7 @@ const Portal = () => {
                     </div>
                     <hr />
                     <div className="portal-button">
-                    <Link href="Start_Test">
+                    <Link href="assessment">
                         <button className="portal-btn">Let&apos;s Start</button>
                     </Link>
                     </div>

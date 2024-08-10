@@ -3,13 +3,12 @@
 }
 
 body {
-  background: #EBE9E6;
+  background: var(--Light-c, #EBE9E6);
   border: 1px solid #b7cbd1;
   margin: auto;
   height: auto;
 
 }
-
 
 /* header css */
 /* first page */
@@ -26,11 +25,14 @@ body {
 }
 
 .header-col1 {
+    /* width: 56px;
+    height: 36px; */
   margin-left: 367px;
 }
 
 .col2 {
   padding: 10px;
+  margin-top: 10px;
   /* border: 1px solid black; */
   text-transform: uppercase;
   font-size: 28.736px;
@@ -46,12 +48,13 @@ body {
 
 /* header css */
 /* second page */
+
 .header-secondpage-row {
   display: flex;
   justify-content: center;
   align-content: center;
   height: 72px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   background: #FCFAFA;
 
 }
@@ -69,8 +72,9 @@ body {
   height: 36px;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
-  margin-left: 120px;
+  margin: auto;
+  width: 56px;
+  height: 36px;
 }
 
 .secondpage-col2 {
@@ -81,12 +85,13 @@ body {
   font-family: "Josefin Sans";
   font-weight: 700;
   color: #8F887C;
+
 }
 
 .clock-box {
   width: 152px;
   height: 180px;
-  /* border: 1px solid #1F1E1C; */
+  border: 1px solid #1F1E1C;
   margin-left: 57px;
   margin-top: 10px;
 
@@ -130,58 +135,12 @@ body {
   margin-top: -10px;
   margin-left: 72px;
   border-radius: 4px;
-  border: 2px solid var(--Accent, #F4D150);
-  background: var(--Accent-Light, #FEEEB4);
+  border: 2px solid #F4D150;
+  background:  #FEEEB4;
   box-shadow: 0px 4px 7px 0px #B3AE9C;
 }
 
 
-
-
-/* header css */
-/* third page */
-
-.score-header-row {
-  display: flex;
-  height: 72px;
-  padding: 18px 0px;
-  justify-content: center;
-  align-items: center;
-  /* border: 2px solid blue; */
-  background: #FCFAFA;
-
-
-}
-
-
-.col2 {
-  padding: 10px;
-  /* border: 1px solid black; */
-  text-transform: uppercase;
-  font-size: 28.736px;
-  font-family: "Josefin Sans";
-  font-weight: 700;
-  color: #8F887C;
-
-}
-
-.col3 {
-  color: #4C4B49;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 400;
-  margin-left: 650px;
-}
-
-.col4 {
-  padding: 10px;
-  /* border: 1px solid black; */
-  color: #4C4B49;
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 600;
-
-}
 
 
 /* footer css */
@@ -193,7 +152,6 @@ body {
   justify-content: center;
   align-items: center;
   background: #4C4B49;
-  margin-top: 143px;
   /* border: 2px solid #0f12e4; */
 
 }
@@ -224,11 +182,4 @@ body {
 
 }
 
-/* Mobile view */
-@media (max-width: 768px) {
-  .footer-row {
-    padding: 15px 0;
-    flex-direction: column;
-    margin-top: 80px;
-  }
-}
+

@@ -1,13 +1,12 @@
 import "./Submission.css";
 import Link from "next/link";
-import Image from 'next/image';
 
 const Submission = () => {
     return (
         <>
             <div className="submission-box1">
                 <div className="tick">
-                    <Image src="/Group 32.svg" alt="Logo" width={14} height={10} />
+                    <img src="/Group 32.svg" alt="Logo"  />
                 </div>
                 <div className="submission-box2">
                     <h1>Successfully Submitted</h1>
@@ -15,9 +14,11 @@ const Submission = () => {
                     <p>Review your results and keep practicing.
                         Great job and keep up the hard work!</p>
                 </div>
-                <Link href="/Score">
-                    <button className="Score-btn">Check Your Score</button>
-                </Link>
+                <div className="score-button">
+                    <Link href="score">
+                        <button className="Score-btn">Check Your Score</button>
+                    </Link>
+                </div>
             </div>
         </>
     );

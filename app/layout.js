@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./Footer.js";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}
-      {/* <link
+      <Footer />
+
+      <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Josefin Sans"
         />
@@ -23,7 +27,7 @@ export default function RootLayout({ children }) {
          <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inria Sans"
-        /> */}
+        />
       </body>
     </html>
   );
