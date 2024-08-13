@@ -1,0 +1,21 @@
+.pagination {
+    margin-left: 300px;
+}
+
+.pagination-col {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-page {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    /* cursor: pointer; */
+}
+
+.pagination-page:hover {
+    background-color: #b7bbcf;
+}

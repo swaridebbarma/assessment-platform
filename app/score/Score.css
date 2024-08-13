@@ -1,34 +1,33 @@
 .score-row1 {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 625px;
     height: 165px;
-    flex-shrink: 0;
     border-radius: 12px;
-    /* border: 1px solid var(--Dark-d, hsl(38, 89%, 4%)); */
-    background: var(--Dark-b, #4C4B49);
+    /* border: 1px solid #8F887C; */
+    background: #4C4B49;
+    margin: auto;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .score-col1-box {
-    margin-left: 43px;
-    /* border: 1px solid var(--Dark-d, hsl(38, 89%, 4%)); */
+    color: #EBE9E6;
+    margin-left: 42px;
 }
 
 .score-col1 {
-    color: var(--Light-b, #F9F7F2);
+    color: #F9F7F2;
     text-align: center;
     font-family: Jost;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 52px;
 }
 
-.score-col2 {
-    color: var(--Light-b, #F9F7F2);
+.score-col {
+    color: #F9F7F2;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
@@ -36,9 +35,25 @@
     line-height: 160%;
 }
 
-.score-col2-box {
-    /* border: 1px solid var(--Dark-d, hsl(38, 89%, 4%)); */
+.score-row2-box {
+    display: inline-flex;
+    align-items: center;
+    width: 406px;
+    height: 58px;
+    /* border: 1px solid #8F887C; */
     margin-left: 50px;
+    margin-top: 55px;
+    color: #F9F7F2;
+
+}
+
+.score-col2-box {
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
 }
 
 .score-col3 {
@@ -47,44 +62,35 @@
     height: 28px;
     justify-content: center;
     align-items: center;
-    margin-left: 33px;
-    text-align: center;
 
 }
 
 .score-col4 {
-    color: var(--Light-b, #F9F7F2);
+    color: #F9F7F2;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-}
-
-.number {
-    display: inline-block;
-    color: var(--Light-b, #F9F7F2);
-    text-align: center;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-    margin-left: 12px;
+    font-weight: 400;
+    line-height: 150%;
+  
 }
 
 .score-hr1 {
     width: 55px;
     height: 0px;
     transform: rotate(90deg);
-    stroke-width: 1px;
-    stroke: var(--Dark-d, #8F887C);
-
+    border:  1px solid  #8F887C;
+    margin: 0 -19px;
 }
-/* 
+
 .score-col3-box {
-    border: 1px solid var(--Dark-d, hsl(38, 89%, 4%));
-} */
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
 
 .score-col5 {
     display: flex;
@@ -92,33 +98,31 @@
     height: 28px;
     justify-content: center;
     align-items: center;
-    margin-left: 33px;
+    background-color: #88BE37;
+    border-radius: 30px;
+}
+
+.score-col5 img {
+    width: 14.453px;
+    height: 10.719px;
 }
 
 .score-col6 {
-    color: var(--Light-b, #F9F7F2);
-    text-align: center;
-
+    color: #F9F7F2;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
-}
-
-.score-hr2 {
-    width: 55px;
-    height: 0px;
-    transform: rotate(90deg);
-    stroke-width: 1px;
-    stroke: var(--Dark-d, #8F887C);
-
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .score-col4-box {
-    margin-right: 41px;
-    /* border: 1px solid var(--Dark-d, hsl(38, 89%, 4%)); */
-
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
 }
 
 .score-col7 {
@@ -127,16 +131,37 @@
     height: 28px;
     justify-content: center;
     align-items: center;
-    margin-left: 33px;
-
 }
 
 .score-col8 {
-    color: var(--Light-b, #F9F7F2);
-    text-align: center;
+    color: #F9F7F2;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 160%;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0 30px;
 }
+
+.check {
+    width: 400px;
+    height: 19px;
+    /* border: 1px solid black; */
+    color: #1F1E1C;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+
+.score-hr3 {
+    width: 621px;
+    height: 2px;
+    background: #777671;
+    margin-top: 27px;
+}
+

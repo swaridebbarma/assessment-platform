@@ -1,0 +1,26 @@
+
+  .filter-box {
+    text-align: center;
+    width: 284px;
+    height: 375px;
+    border-radius: 12px;
+    border: 1px solid #777671;
+    background: #F9F7F2;
+    margin-left: 249px;
+    margin-top: 155px; 
+    margin-right: 993px;
+      
+  }
+  
+  .filter {
+    display: flex;
+    width: 197px;
+    height: 259.621px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 38px;
+    margin-left: 36px; 
+    border-radius: 12px;
+    border: 1px solid #0c17b3;
+  
+  }
