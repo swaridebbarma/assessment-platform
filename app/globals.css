@@ -46,103 +46,12 @@ body {
 
 
 
-/* header css */
-/* second page */
-
-.header-secondpage-row {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 72px;
-  /* border: 2px solid blue; */
-  background: #FCFAFA;
-
-}
-
-.secondpage-row {
-  display: flex;
-  align-content: center;
-  height: 72px;
-  padding: 18px 0px;
-}
-
-.secondpage-col1 {
-  display: flex;
-  width: 112px;
-  height: 36px;
-  justify-content: center;
-
-}
-
-.secondpage-col2 {
-  padding: 10px;
-  /* border: 1px solid black; */
-  text-transform: uppercase;
-  font-size: 28.736px;
-  font-family: "Josefin Sans";
-  font-weight: 700;
-  color: #8F887C;
-}
-
-.clock-box {
-  width: 152px;
-  height: 180px;
-  border: 1px solid #1F1E1C;
-  margin-left: 57px;
-  margin-top: -10px;
-  padding: 5px;
-
-
-}
-
-.cercle1 {
-  width: 142px;
-  height: 142px;
-  border-radius: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  background-color: #EBE9E6;
-
-}
-
-.cercle2 {
-  width: 120px;
-  height: 120px;
-  border-radius: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  background-color: white;
-
-  position: relative;
-  margin-top: -130px;
-  margin-left: 10px;
-}
-
-.time {
-  padding: 15px;
-}
-
-
-
-.submitted-btn {
-  display: inline-flex;
-  padding: 16px 35px;
-  justify-content: center;
-  align-items: center;
-  margin-top: -10px;
-  margin-left: 72px;
-  border-radius: 4px;
-  border: 2px solid #F4D150;
-  background: #FEEEB4;
-  box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
-
-
-
-
 /* footer css */
 
 .footer-row {
   display: flex;
   height: 171px;
+  width: auto;
   padding: 46px 0px 68px 0px;
   justify-content: center;
   align-items: center;

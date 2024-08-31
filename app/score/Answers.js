@@ -20,7 +20,7 @@ const Answers = () => {
             </div>
             <div className="answers-col2">
                 <img className="plus" src="Frame 237579.svg" />
-
+                
             </div>
             <div className="answers-col3">
                 <p className="marks">0</p>

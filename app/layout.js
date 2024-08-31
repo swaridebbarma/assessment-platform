@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inria Sans"
         />
+             <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Jost"
+        />
       </body>
     </html>
   );
