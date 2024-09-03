@@ -24,6 +24,8 @@ const Filter = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="FILTER">FILTER
+            </div> */}
 
         </>
     );

@@ -16,7 +16,7 @@ const Header = () => {
 						<img src="/Logo Grp.svg" alt="Logo" />
 						<div className="qa"> QA </div>
 					</div>
-
+					<hr class="hr"></hr>
 					{/* <Pagination count={8} variant="outlined" color="primary" /> */}
 					< div className="assessment-col2" >
 						<Pagination />

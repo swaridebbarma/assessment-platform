@@ -71,9 +71,9 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
+    /* line-height: 150%; */
     position: relative;
-    padding-left: 25px;
+    padding-left: 35px;
     white-space: nowrap;
 }
 
@@ -83,11 +83,11 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 8px;
-    height: 8px;
-    background-color: rgb(235, 191, 46);
+    width: 16px;
+    height: 16px;
+    /* background-color: rgb(235, 191, 46); */
     border-radius: 50%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 768px) {
@@ -98,8 +98,8 @@
         margin: auto;
         margin-top: 58px;
     }
-   
-    .col-box1{
+
+    .col-box1 {
         width: 200px;
         height: 19px;
     }
@@ -108,11 +108,12 @@
         display: flex;
         padding: 40px 30px;
         flex-direction: column;
-        width: 320px;
+        width: 100%
     }
 
+
     .container {
-        width: auto;
+        width: 360px;
         height: auto;
         /* border: 1px solid #2f5e03; */
         display: inline-block;
@@ -126,6 +127,7 @@
     /* border: 1px solid #2f5e03; */
     margin-left: 160px;
     margin-top: -50px;
+    display: flex;
 
 }
 
@@ -142,7 +144,8 @@
     height: auto;
     /* border: 1px solid #da241ee1; */
     margin-right: auto;
-    margin-bottom: 136px;;
+    margin-bottom: 136px;
+    ;
 }
 
 @media screen and (max-width: 768px) {
@@ -162,27 +165,34 @@
         width: 360px;
         height: auto;
         /* border: 3px solid #da241ee1; */
-        margin-bottom: 258px;;
+        margin-bottom: 258px;
+        ;
     }
 
 }
 
 .row-fast {
-    width: 450px;
+    width: 440px;
+    /* border: 1px solid hsl(295, 94%, 19%); */
+
 }
 
 .row-second {
     width: 600px;
     /* border: 1px solid hsl(295, 94%, 19%); */
-    flex-grow: 1;
+    margin-right: 100px;
 }
+
 @media screen and (max-width: 768px) {
     .row-second {
-        width: 360px;
+        width: 320px;
         /* border: 1px solid hsl(295, 94%, 19%); */
-        flex-grow: 1;
+        /* flex-grow: 1; */
     }
+
     .row-fast {
-        width: 360px;
+        width: 100%;
+        /* border: 1px solid hsl(295, 94%, 19%); */
+
     }
 }

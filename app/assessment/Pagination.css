@@ -48,7 +48,7 @@
 
     .pagination-page{
         display: none;
-        margin-left: 26px;
+        margin-left: 16px;
     }
 
 
@@ -62,9 +62,15 @@
     .dot{
         display: flex;
         margin-left: 26px;
+        margin-top: 20px;
     }
 
     .arrow-right {
         margin-left: 26px;
+        margin-right: 19px;
+    }
+
+    .arrow-left {
+        margin-left: 19px;
     }
 }
