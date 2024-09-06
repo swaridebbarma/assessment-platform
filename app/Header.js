@@ -4,8 +4,8 @@ const Header = () => {
 		<div className="header-row">
 			<div className="header-col1">
 				<img src="/Logo Grp.svg" alt="Logo" />
+				<div className="QA"> QA </div>
 			</div>
-			<div className="col2"> QA </div>
 		</div>
 	);
 };

@@ -1,5 +1,5 @@
 "use client"
-import "./header.css";
+import "./Header_Assessment..css";
 // import { Pagination } from "@mui/material";
 import Pagination from "./Pagination";
 import Link from "next/link";
@@ -10,19 +10,17 @@ const Header = () => {
 	return (
 		<>
 			<div className="header-assessment">
-
-				<div className="assessment-row">
-					<div className="assessment-col1">
+				<div className="header-assessment-row">
+					<div className="header-assessment-logo">
 						<img src="/Logo Grp.svg" alt="Logo" />
 						<div className="qa"> QA </div>
 					</div>
-					<hr class="hr"></hr>
 					{/* <Pagination count={8} variant="outlined" color="primary" /> */}
-					< div className="assessment-col2" >
+					< div className="header-assessment-pagination" >
 						<Pagination />
 					</div>
-
-					<div className="assessment-col3">
+					<div className="line"></div>
+					<div className="header-assessment-Submit">
 						<Link href="submitted">
 							<button className="btn" >Submit</button>
 						</Link>

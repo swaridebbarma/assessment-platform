@@ -1,11 +1,8 @@
-import Header from "./Header";
+import Header from "./Header_Assessment";
 import Clock from "./Clock";
 import "./Questions.css";
 import Filter from "./Filter";
 import Questionslist from "./Questionslist";
-
-
-
 
 const Page = () => {
 	return (
