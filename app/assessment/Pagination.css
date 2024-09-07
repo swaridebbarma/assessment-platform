@@ -2,20 +2,48 @@
     color: var(--Dark-a, #1F1E1C);
     font-family: "Inria Sans";
     font-size: 14px;
-    font-weight: 400;
-    line-height: 120%;
-    padding: 7px 10px 6px 10px;
+    line-height: 28px;
     border: 1px solid #ccc;
     border-radius: 30px;
-    margin-left: 16px;
-
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
-.dot{
+
+@media screen and (max-width: 576px) {
+    .arrow-left {
+        width: 28px;
+        height: 28px;    
+        margin-top: 15px;
+    }
+
+    .pagination-page {
+        display: none;
+    }
+
+    .pagination-page:nth-child(2),
+    .pagination-page:nth-child(7),
+    .pagination-page:nth-child(11) {
+        display: block;
+
+    }
+    .arrow-right {
+        width: 28px;
+        height: 28px; 
+        margin-top: 15px;   
+    }
+}
+
+.dot {
     display: none;
 }
 
-.arrow-right {
-    margin-left: 16px;
+@media screen and (max-width: 576px) {
+    .dot {
+        display: flex;
+        line-height: 28px;
+
+    }
 }
 
 .pagination-page:hover {
@@ -23,14 +51,9 @@
 }
 
 
-
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     .pagination-col {
-        margin-top: 0px;
         justify-content: center;
         float: none;
         display: none;
@@ -38,31 +61,8 @@
         border: 1px solid black;
         float: left;
         height: 74px;
-     }
-
-    .pagination-page {
-        /* padding: 5px 10px; */
-        /* margin: 5px; */
-        border-radius: 20px;
     }
 
-    .pagination-page{
-        display: none;
-    }
-
-
-    .pagination-page:nth-child(2),
-    .pagination-page:nth-child(7),
-    .pagination-page:nth-child(11){
-        display: inline-block;
-        margin-left: 26px;
-        
-    }
-    .dot{
-        display: flex;
-        margin-left: 26px;
-        margin-top: 20px;
-    }
 
 
 }

@@ -9,10 +9,17 @@ const Page = () => {
 		<>
 			<Header />
 			<div className="container">
-				<div className="row-fast">
+				<div className="row-first">
 					<div className="col1">
 						<Clock />
-
+						<div className="FILTER">
+							<div className="line">
+								<div className="one"></div>
+								<div className="two"></div>
+								<div className="three"></div>
+							</div>
+							<div className="four">FILTER</div>
+						</div>
 					</div>
 					<div className="col2">
 						<Filter />
@@ -20,10 +27,10 @@ const Page = () => {
 					</div>
 				</div>
 				<div className="row-second">
-					<div className="col3">
-						<Questionslist />
+					{/* <div className="col3"> */}
+					<Questionslist />
 
-					</div>
+					{/* </div> */}
 				</div>
 
 			</div>

@@ -1,17 +1,39 @@
 .header-assessment {
     background-color: #FCFAFA;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 .header-assessment-row {
     width: 1200px;
-    /* height: 72px; */
-    display: flex;
+    height: 72px;
     justify-content: space-between;
     align-items: center;
+    display: flex;
     /* border: 1px solid black; */
+    margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+
+    .header-assessment-row {
+        width: 100%;
+        display: block;
+
+    }
+}
+
+.header-assessment-logo {
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 576px) {
+
+    .header-assessment-logo {
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
 }
 
 .header-assessment-pagination {
@@ -19,23 +41,44 @@
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
+    gap: 16px;
 }
 
-.header-assessment-logo {
-    display: flex;
-    /* border: 1px solid black; */
-    /* flex-grow: 1; */
+@media screen and (max-width: 576px) {
 
+    .header-assessment-pagination {
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2%;
+        background-color: #FCFAFA;
+        /* border: 1px solid black; */
+        height: 74px;
+    }
 }
+
 
 .header-assessment-Submit {
     width: 130px;
     height: 54px;
     margin-left: 73px;
     /* border: 1px solid black; */
-  
+}
+
+@media screen and (max-width: 576px) {
+    .header-assessment-Submit {
+        position: fixed;
+        bottom: 60px;
+        right: 22px;
+        z-index:30;
+
+    }
+
+
 
 }
+
 
 
 
@@ -60,61 +103,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 16px 35px;    border-radius: 4px;
+    padding: 16px 35px;
+    border-radius: 4px;
     background: var(--Accent-Light, #FEEEB4);
     border: 1px solid var(--Accent, #F4D150);
-
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .header-assessment {
-        background-color: #FCFAFA;
-        width: 100%;
-    }
-
-    .header-assessment-row{
-        /* border: 1px solid black; */
-        display: inline-block;
-    }
-
-    .header-assessment-logo  {
-        justify-content: center;
-        align-items: center;
-        /* border: 1px solid black; */
-        padding: 10px;
-    }
-    .line {
-        margin-top: -64px;
-        box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
-    }
-
-    .header-assessment-pagination {
-        font-size: 14px;
-        letter-spacing: 1px;
-        text-align: center;
-        /* max-width: 100%; */
-        /* width: auto; */
-        justify-content: center;
-        /* border: 1px solid black; */
-        margin-top: 2px;
-        background-color: #FCFAFA;
-
-
-
-    }
-
-    .header-assessment-Submit{
-        width: 130px;
-        height: 54px;
-        /* border: 1px solid black; */
-        margin-top: 744px;
-        margin-left: 201px;
-        position: fixed;
-
-    }
-
-
 
 }

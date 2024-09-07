@@ -19,7 +19,6 @@ const Header = () => {
 					< div className="header-assessment-pagination" >
 						<Pagination />
 					</div>
-					<div className="line"></div>
 					<div className="header-assessment-Submit">
 						<Link href="submitted">
 							<button className="btn" >Submit</button>

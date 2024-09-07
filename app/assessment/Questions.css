@@ -6,18 +6,139 @@
     display: flex;
 }
 
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        display: block;
+    }
+}
+
+.row-first {
+    height: 100%;
+    /* border: 1px solid hsl(295, 94%, 19%); */
+}
+
+@media screen and (max-width: 576px) {
+    .row-first {
+        width: 100%;
+        /* border: 1px solid hsl(295, 94%, 19%); */
+
+    }
+}
+
+.row-second {
+    width: 100%;
+    /* border: 1px solid hsl(295, 94%, 19%); */
+    width: 100%;
+    height: auto;
+    margin-bottom: 136px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .row-second {
+        width: 100%;
+        /* border: 1px solid hsl(295, 94%, 19%); */
+    }
+
+}
+
+.col1 {
+    width: 150px;
+    height: 180px;
+    /* border: 1px solid #2f5e03; */
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 576px) {
+    .col1 {
+        margin-top: 100px;
+        margin-left: 20px;
+        /* border: 1px solid black; */
+    }
+}
+
+.col2 {
+    /* border: 1px solid #2f5e03; */
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.FILTER{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .col2 {
+        display: none;
+    }
+
+    .FILTER {
+        width: 104px;
+        height: 39px;
+        margin-left: 217px;
+        margin-top: -120px;
+        /* border: 1px solid #2f5e03; */
+        background-color: #FCFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+
+    .one {
+        border: 1px solid#777671;
+        width: 16px;
+        height: 0px;
+        margin-top: 2%;
+
+    }
+
+    .two {
+        border: 1px solid #777671;
+        width: 13px;
+        height: 0px;
+        margin-top: 20%;
+        margin-bottom: 22%;
+
+    }
+
+    .three {
+        border: 1px solid#777671;
+        width: 10px;
+        height: 0px;
+
+
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .question {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid rgb(201, 19, 19); */
+        margin-bottom: 259px;
+    }
+}
 
 .questions-box {
     width: 560px;
     height: auto;
     /* border: 1px solid black; */
     margin-top: 66px;
+    margin-left: 50px;
 
 }
 
 .box {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid #a10d0d; */
 }
 
 .col-box1 {
@@ -51,6 +172,7 @@
     border-radius: 12px;
     background: #FCFAFA;
     width: 560px;
+    /* border: 1px solid #a10d0d; */
 
 }
 
@@ -90,7 +212,7 @@
     /* border: 1px solid black; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .questions-box {
         width: 320px;
         flex-direction: column;
@@ -111,88 +233,4 @@
         width: 100%
     }
 
-
-    .container {
-        width: 100%;
-        height: auto;
-        /* border: 1px solid #2f5e03; */
-        display: inline-block;
-    }
-
-}
-
-.col1 {
-    width: 150px;
-    height: 180px;
-    /* border: 1px solid #2f5e03; */
-    margin-left: 160px;
-    margin-top: -50px;
-    display: flex;
-
-}
-
-.col2 {
-    width: 284px;
-    height: 375px;
-    /* border: 1px solid #2f5e03; */
-    margin-left: 100px;
-    margin-top: 20px;
-}
-
-.col3 {
-    width: 560px;
-    height: auto;
-    /* border: 1px solid #da241ee1; */
-    margin-right: auto;
-    margin-bottom: 136px;
-    ;
-}
-
-@media screen and (max-width: 768px) {
-    .col1 {
-        margin-top: 77px;
-        margin-left: 20px;
-        width: 152px;
-        height: 180px;
-        /* border: 1px solid black; */
-    }
-
-    .col2 {
-        display: none;
-    }
-
-    .col3 {
-        width: 320px;
-        height: auto;
-        /* border: 3px solid #da241ee1; */
-        margin-bottom: 258px;
-        margin: auto;
-    }
-
-}
-
-.row-fast {
-    width: 440px;
-    /* border: 1px solid hsl(295, 94%, 19%); */
-
-}
-
-.row-second {
-    width: 600px;
-    /* border: 1px solid hsl(295, 94%, 19%); */
-    margin-right: 100px;
-}
-
-@media screen and (max-width: 768px) {
-    .row-second {
-        width: 100%;
-        margin-bottom: 259px;
-        /* border: 1px solid hsl(295, 94%, 19%); */
-    }
-
-    .row-fast {
-        width: 100%;
-        /* border: 1px solid hsl(295, 94%, 19%); */
-
-    }
 }

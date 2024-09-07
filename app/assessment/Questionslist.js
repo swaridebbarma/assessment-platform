@@ -5,11 +5,11 @@ const Questionslist = () => {
     return (
         <>
             <div className="question">
-            <Questions />
-            <Questions />
-            <Questions />
-            <Questions />       
-            <Questions />
+                <Questions />
+                <Questions />
+                <Questions />
+                <Questions />
+                <Questions />
 
             </div>
         </>
