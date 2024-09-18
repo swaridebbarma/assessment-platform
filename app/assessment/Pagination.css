@@ -14,7 +14,6 @@
     .arrow-left {
         width: 28px;
         height: 28px;    
-        margin-top: 15px;
     }
 
     .pagination-page {
@@ -30,7 +29,6 @@
     .arrow-right {
         width: 28px;
         height: 28px; 
-        margin-top: 15px;   
     }
 }
 

@@ -12,14 +12,7 @@ const Page = () => {
 				<div className="row-first">
 					<div className="col1">
 						<Clock />
-						<div className="FILTER">
-							<div className="line">
-								<div className="one"></div>
-								<div className="two"></div>
-								<div className="three"></div>
-							</div>
-							<div className="four">FILTER</div>
-						</div>
+
 					</div>
 					<div className="col2">
 						<Filter />
